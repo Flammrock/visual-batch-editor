@@ -1,0 +1,4092 @@
+:maj_a.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_a <x> <y>
+call :maj_a.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:maj_b.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_b <x> <y>
+call :maj_b.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:maj_c.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_c <x> <y>
+call :maj_c.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:maj_d.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_d <x> <y>
+call :maj_d.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:maj_e.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_e <x> <y>
+call :maj_e.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+goto:eof
+:maj_f.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_f <x> <y>
+call :maj_f.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:maj_g.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_g <x> <y>
+call :maj_g.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:maj_h.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_h <x> <y>
+call :maj_h.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:maj_i.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_i <x> <y>
+call :maj_i.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:maj_j.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_j <x> <y>
+call :maj_j.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+goto:eof
+:maj_k.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_k <x> <y>
+call :maj_k.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:maj_l.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_l <x> <y>
+call :maj_l.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+goto:eof
+:maj_m.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_m <x> <y>
+call :maj_m.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:maj_n.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_n <x> <y>
+call :maj_n.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:maj_o.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_o <x> <y>
+call :maj_o.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:maj_p.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_p <x> <y>
+call :maj_p.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:maj_q.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_q <x> <y>
+call :maj_q.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:maj_r.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_r <x> <y>
+call :maj_r.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:maj_s.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_s <x> <y>
+call :maj_s.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:maj_t.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_t <x> <y>
+call :maj_t.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+goto:eof
+:maj_u.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_u <x> <y>
+call :maj_u.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:maj_v.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_v <x> <y>
+call :maj_v.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+goto:eof
+:maj_w.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_w <x> <y>
+call :maj_w.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:maj_x.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_x <x> <y>
+call :maj_x.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:maj_y.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_y <x> <y>
+call :maj_y.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+goto:eof
+:maj_z.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_z <x> <y>
+call :maj_z.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+goto:eof
+:min_a.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_a <x> <y>
+call :min_a.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+goto:eof
+:min_b.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_b <x> <y>
+call :min_b.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_c.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_c <x> <y>
+call :min_c.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_d.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_d <x> <y>
+call :min_d.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+goto:eof
+:min_e.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_e <x> <y>
+call :min_e.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_f.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_f <x> <y>
+call :min_f.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:min_g.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_g <x> <y>
+call :min_g.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_h.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_h <x> <y>
+call :min_h.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:min_i.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_i <x> <y>
+call :min_i.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_j.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_j <x> <y>
+call :min_j.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+goto:eof
+:min_k.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_k <x> <y>
+call :min_k.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_l.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_l <x> <y>
+call :min_l.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_m.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_m <x> <y>
+call :min_m.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:min_n.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_n <x> <y>
+call :min_n.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:min_o.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_o <x> <y>
+call :min_o.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_p.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_p <x> <y>
+call :min_p.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:min_q.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_q <x> <y>
+call :min_q.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:min_r.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_r <x> <y>
+call :min_r.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:min_s.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_s <x> <y>
+call :min_s.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_t.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_t <x> <y>
+call :min_t.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_u.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_u <x> <y>
+call :min_u.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:min_v.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_v <x> <y>
+call :min_v.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+goto:eof
+:min_w.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_w <x> <y>
+call :min_w.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_x.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_x <x> <y>
+call :min_x.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:min_y.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_y <x> <y>
+call :min_y.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_z.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_z <x> <y>
+call :min_z.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+goto:eof
+:chiffre_1.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:chiffre_1 <x> <y>
+call :chiffre_1.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:chiffre_2.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:chiffre_2 <x> <y>
+call :chiffre_2.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+goto:eof
+:chiffre_3.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:chiffre_3 <x> <y>
+call :chiffre_3.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:chiffre_4.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:chiffre_4 <x> <y>
+call :chiffre_4.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:chiffre_5.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:chiffre_5 <x> <y>
+call :chiffre_5.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:chiffre_6.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:chiffre_6 <x> <y>
+call :chiffre_6.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:chiffre_7.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:chiffre_7 <x> <y>
+call :chiffre_7.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:chiffre_8.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:chiffre_8 <x> <y>
+call :chiffre_8.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:chiffre_9.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:chiffre_9 <x> <y>
+call :chiffre_9.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+goto:eof
+:chiffre_0.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:chiffre_0 <x> <y>
+call :chiffre_0.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:espace.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:espace <x> <y>
+call :espace.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:egal.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:egal <x> <y>
+call :egal.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:point_d_interrogation.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:point_d_interrogation <x> <y>
+call :point_d_interrogation.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+goto:eof
+:moins.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:moins <x> <y>
+call :moins.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:point_d_exclamation.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:point_d_exclamation <x> <y>
+call :point_d_exclamation.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+goto:eof
+:deux_points.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:deux_points <x> <y>
+call :deux_points.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:plus.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:plus <x> <y>
+call :plus.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:back_slash.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:back_slash <x> <y>
+call :back_slash.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:slash.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:slash <x> <y>
+call :slash.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:numero.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:numero <x> <y>
+call :numero.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:guillemets_horizontaux.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:guillemets_horizontaux <x> <y>
+call :guillemets_horizontaux.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:guillemets_ouverts.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:guillemets_ouverts <x> <y>
+call :guillemets_ouverts.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:guillemets_fermes.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:guillemets_fermes <x> <y>
+call :guillemets_fermes.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:ashtag.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:ashtag <x> <y>
+call :ashtag.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:dollar.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:dollar <x> <y>
+call :dollar.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+goto:eof
+:pourcent.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:pourcent <x> <y>
+call :pourcent.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+goto:eof
+:et.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:et <x> <y>
+call :et.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:aposthrophe.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:aposthrophe <x> <y>
+call :aposthrophe.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:parenthese_ouverte.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:parenthese_ouverte <x> <y>
+call :parenthese_ouverte.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:parenthese_fermee.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:parenthese_fermee <x> <y>
+call :parenthese_fermee.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:asterisque.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:asterisque <x> <y>
+call :asterisque.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:virgule.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:virgule <x> <y>
+call :virgule.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:point.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:point <x> <y>
+call :point.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+goto:eof
+:point_virgule.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:point_virgule <x> <y>
+call :point_virgule.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:plus_petit_que.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:plus_petit_que <x> <y>
+call :plus_petit_que.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:plus_grand_que.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:plus_grand_que <x> <y>
+call :plus_grand_que.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:crochet_ouvert.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:crochet_ouvert <x> <y>
+call :crochet_ouvert.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+goto:eof
+:crochet_ferme.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:crochet_ferme <x> <y>
+call :crochet_ferme.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:chapeau.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:chapeau <x> <y>
+call :chapeau.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:tiret_du_bas.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:tiret_du_bas <x> <y>
+call :tiret_du_bas.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+goto:eof
+:parenthese_2_fermee.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:parenthese_2_fermee <x> <y>
+call :parenthese_2_fermee.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:parenthese_2_ouverte.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:parenthese_2_ouverte <x> <y>
+call :parenthese_2_ouverte.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:separateur.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:separateur <x> <y>
+call :separateur.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+goto:eof
+:fleche_droite.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:fleche_droite <x> <y>
+call :fleche_droite.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:fleche_gauche.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:fleche_gauche <x> <y>
+call :fleche_gauche.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:gros_coeur_vide.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:gros_coeur_vide <x> <y>
+call :gros_coeur_vide.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:petit_coeur_vide.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:petit_coeur_vide <x> <y>
+call :petit_coeur_vide.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+goto:eof
+:gros_coeur_plein.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:gros_coeur_plein <x> <y>
+call :gros_coeur_plein.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:petit_coeur_plein.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:petit_coeur_plein <x> <y>
+call :petit_coeur_plein.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+goto:eof
+:smiley_content.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:smiley_content <x> <y>
+call :smiley_content.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:smiley_pas_content.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:smiley_pas_content <x> <y>
+call :smiley_pas_content.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:smiley_pas_d_expression.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:smiley_pas_d_expression <x> <y>
+call :smiley_pas_d_expression.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:smiley_fache.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:smiley_fache <x> <y>
+call :smiley_fache.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:smiley_triste.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:smiley_triste <x> <y>
+call :smiley_triste.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:smiley_surpris_bouche_ouverte.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:smiley_surpris_bouche_ouverte <x> <y>
+call :smiley_surpris_bouche_ouverte.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:smiley_bisou.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:smiley_bisou <x> <y>
+call :smiley_bisou.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:like.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:like <x> <y>
+call :like.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:maj_e_accent_aigus.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_e_accent_aigus <x> <y>
+call :maj_e_accent_aigus.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+goto:eof
+:maj_e_accent_grave.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_e_accent_grave <x> <y>
+call :maj_e_accent_grave.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+goto:eof
+:maj_e_chapeau.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_e_chapeau <x> <y>
+call :maj_e_chapeau.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+goto:eof
+:maj_e_tremas.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_e_tremas <x> <y>
+call :maj_e_tremas.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+goto:eof
+:min_e_accent_aigus.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_e_accent_aigus <x> <y>
+call :min_e_accent_aigus.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_e_accent_aigus.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_e_accent_aigus <x> <y>
+call :min_e_accent_aigus.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_e_accent_grave.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_e_accent_grave <x> <y>
+call :min_e_accent_grave.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_e_tremas.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_e_tremas <x> <y>
+call :min_e_tremas.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:maj_a_accent_aigus.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_a_accent_aigus <x> <y>
+call :maj_a_accent_aigus.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:maj_a_accent_grave.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_a_accent_grave <x> <y>
+call :maj_a_accent_grave.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:maj_a_chapeau.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_a_chapeau <x> <y>
+call :maj_a_chapeau.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:maj_a_tremas.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_a_tremas <x> <y>
+call :maj_a_tremas.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:min_a_accent_grave.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_a_accent_grave <x> <y>
+call :min_a_accent_grave.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+goto:eof
+:min_a_accent_aigus.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_a_accent_aigus <x> <y>
+call :min_a_accent_aigus.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+goto:eof
+:min_a_chapeau.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_a_chapeau <x> <y>
+call :min_a_chapeau.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+goto:eof
+:min_a_tremas.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_a_tremas <x> <y>
+call :min_a_tremas.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+goto:eof
+:maj_u_accent_aigus.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_u_accent_aigus <x> <y>
+call :maj_u_accent_aigus.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:maj_u_accent_grave.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_u_accent_grave <x> <y>
+call :maj_u_accent_grave.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:maj_u_chapeau.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_u_chapeau <x> <y>
+call :maj_u_chapeau.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:maj_u_tremas.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_u_tremas <x> <y>
+call :maj_u_tremas.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_u_accent_aigus.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_u_accent_aigus <x> <y>
+call :min_u_accent_aigus.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:min_u_accent_grave.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_u_accent_grave <x> <y>
+call :min_u_accent_grave.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:min_u_chapeau.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_u_chapeau <x> <y>
+call :min_u_chapeau.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:min_u_tremas.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_u_tremas <x> <y>
+call :min_u_tremas.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:maj_o_tremas.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_o_tremas <x> <y>
+call :maj_o_tremas.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:maj_o_accent_grave.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_o_accent_grave <x> <y>
+call :maj_o_accent_grave.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:maj_o_accent_aigus.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_o_accent_aigus <x> <y>
+call :maj_o_accent_aigus.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:maj_o_chapeau.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_o_chapeau <x> <y>
+call :maj_o_chapeau.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:maj_n_existe_pas.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_n_existe_pas <x> <y>
+call :maj_n_existe_pas.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:maj_i_accent_grave.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_i_accent_grave <x> <y>
+call :maj_i_accent_grave.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:maj_i_accent_aigus.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_i_accent_aigus <x> <y>
+call :maj_i_accent_aigus.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:maj_i_chapeau.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_i_chapeau <x> <y>
+call :maj_i_chapeau.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:maj_i_tremas.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_i_tremas <x> <y>
+call :maj_i_tremas.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_i_accent_grave.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_i_accent_grave <x> <y>
+call :min_i_accent_grave.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_i_accent_aigus.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_i_accent_aigus <x> <y>
+call :min_i_accent_aigus.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_i_chapeau.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_i_chapeau <x> <y>
+call :min_i_chapeau.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_i_tremas.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_i_tremas <x> <y>
+call :min_i_tremas.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:maj_y_accent_grave.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_y_accent_grave <x> <y>
+call :maj_y_accent_grave.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+goto:eof
+:maj_y_accent_aigus.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_y_accent_aigus <x> <y>
+call :maj_y_accent_aigus.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219s 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+goto:eof
+:maj_y_chapeau.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_y_chapeau <x> <y>
+call :maj_y_chapeau.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+goto:eof
+:maj_y_tremas.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_y_tremas <x> <y>
+call :maj_y_tremas.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+goto:eof
+:min_o_tremas.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_o_tremas <x> <y>
+call :min_o_tremas.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_o_accent_grave.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_o_accent_grave <x> <y>
+call :min_o_accent_grave.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_o_accent_aigus.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_o_accent_aigus <x> <y>
+call :min_o_accent_aigus.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_o_chapeau.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_o_chapeau <x> <y>
+call :min_o_chapeau.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_n_existe_pas.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_n_existe_pas <x> <y>
+call :min_n_existe_pas.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:min_y_accent_grave.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_y_accent_grave <x> <y>
+call :min_y_accent_grave.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_y_accent_aigus.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_y_accent_aigus <x> <y>
+call :min_y_accent_aigus.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219µ 
+goto:eof
+:min_y_chapeau.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_y_chapeau <x> <y>
+call :min_y_chapeau.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_y_tremas.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_y_tremas <x> <y>
+call :min_y_tremas.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:maj_c_cedille.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_c_cedille <x> <y>
+call :maj_c_cedille.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:min_c_cedille.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_c_cedille <x> <y>
+call :min_c_cedille.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:arobase.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:arobase <x> <y>
+call :arobase.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+goto:eof
+:maj_ae.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_ae <x> <y>
+call :maj_ae.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+goto:eof
+:maj_oe.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_oe <x> <y>
+call :maj_oe.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+goto:eof
+:min_ae.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_ae <x> <y>
+call :min_ae.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:min_oe.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_oe <x> <y>
+call :min_oe.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:vague.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:vague <x> <y>
+call :vague.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 
+echo -g %x0lettre% %y5lettre% -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:3_points.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:3_points <x> <y>
+call :3_points.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
+:min_s_chapeau_renverse.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_s_chapeau_renverse <x> <y>
+call :min_s_chapeau_renverse.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:esset.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:esset <x> <y>
+call :esset.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+goto:eof
+:exposant_moins_un.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:exposant_moins_un <x> <y>
+call :exposant_moins_un.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:exposant.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:exposant <x> <y>
+call :exposant.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:divise.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:divise <x> <y>
+call :divise.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:alpha.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:alpha <x> <y>
+call :alpha.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:beta.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:beta <x> <y>
+call :beta.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:epsilon.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:epsilon <x> <y>
+call :epsilon.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:mu.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:mu <x> <y>
+call :mu.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:racine_carre.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:racine_carre <x> <y>
+call :racine_carre.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:rho.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:rho <x> <y>
+call :rho.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:theta.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:theta <x> <y>
+call :theta.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:infini.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:infini <x> <y>
+call :infini.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:maj_omega.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_omega <x> <y>
+call :maj_omega.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:maj_sigma.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:maj_sigma <x> <y>
+call :maj_sigma.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+goto:eof
+:min_sigma.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:min_sigma <x> <y>
+call :min_sigma.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -c 0x0f -a 219 -a 219 -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:pi.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:pi <x> <y>
+call :pi.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y2lettre% -c 0x0f -a 219 -a 219 -a 219 -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y3lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y6lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 -c 0x0f -a 219 -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y7lettre% -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+goto:eof
+:pave.setenv <x> <y>
+set /a x0lettre=0+%~1
+set /a y0lettre=0+%~2
+set /a y1lettre=1+%~2
+set /a y2lettre=2+%~2
+set /a y3lettre=3+%~2
+set /a y4lettre=4+%~2
+set /a y5lettre=5+%~2
+set /a y6lettre=6+%~2
+set /a y7lettre=7+%~2
+goto:eof
+:pave <x> <y>
+call :pave.setenv "%~1" "%~2"
+echo -g %x0lettre% %y0lettre% -c 0xf0 -a 219 -a 219 -a 219 -a 219 -a 219 -a 219 
+echo -g %x0lettre% %y1lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y2lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y3lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y4lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y5lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+echo -g %x0lettre% %y6lettre% -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -a 219 
+echo -g %x0lettre% %y7lettre% -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 -c 0x0f -a 219 -c 0xf0 -a 219 
+goto:eof
